@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "${{TEAMS_APP_ID}}",
+  "packageName": "com.microsoft.teams.extension",
+  "developer": {
+    "name": "Reliance Healthcare Inc.",
+    "websiteUrl": "https://ahmedrajaspeaks.com",
+    "privacyUrl": "https://learn.microsoft.com/en-us/azure/health-bot/bot_docs/consent",
+    "termsOfUseUrl": "https://learn.microsoft.com/bs-latn-ba/azure/health-bot/bot_docs/terms"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Heal360-${{TEAMSFX_ENV}}",
+    "full": "Heal360"
+  },
+  "description": {
+    "short": "Heal360 is your one-stop shop for all your healthcare needs.",
+    "full": "Heal360 aims to provide a seamless experience for all your healthcare needs. Targeted to SMEs as well as large enterprises, Heal360 is the first aid of corporate sector employees.Be it a minor ache in your chest while working hours or if you don't have the time for regular checkups,Heal360 is here to help you."
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [],
+  "composeExtensions": [],
+  "staticTabs": [
+    {
+      "entityId": "index0",
+      "name": "Heal360",
+      "contentUrl": "https://healthcare-360.github.io/Azure-Health-Bot/",
+      "websiteUrl": "https://healthcare-360.github.io/Azure-Health-Bot/",
+      "scopes": ["personal"]
+    }
+  ],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": ["${{TAB_DOMAIN}}"],
+  "showLoadingIndicator": false
+}
