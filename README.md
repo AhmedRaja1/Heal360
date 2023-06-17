@@ -1,5 +1,5 @@
-# How to use this Teams Tab app HelloWorld app
+# Application Screenshots : Heal360
 
-Microsoft Teams supports the ability to run web-based UI inside "custom tabs" that users can install either for just themselves (personal tabs) or within a team or group chat context.
+![Heal360 App Screenshot](https://github.com/AhmedRaja1/Heal360/blob/main/App%20Screenshots/Heal360%20(1).png?raw=true "Heal360")
 
 
